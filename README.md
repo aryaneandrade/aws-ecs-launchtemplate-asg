@@ -33,8 +33,7 @@ Criar uma solução escalável e segura utilizando ECS (EC2 Launch Type), com in
 
 Diagrama representando a arquitetura implementada com os principais serviços da AWS:
 
-📌 **[Inserir imagem do diagrama aqui]**  
-_Sugestão de nome do arquivo: `ecs-cluster-architecture.png`_
+
 
 ---
 
