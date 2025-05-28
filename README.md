@@ -12,16 +12,15 @@ O objetivo é implementar uma arquitetura baseada em **Amazon ECS (EC2 Launch Ty
 
 ## :bookmark_tabs: Sumário
 
-- [Objetivo](#objetivo)
-- [Arquitetura](#arquitetura)
-- [Componentes Utilizados](#componentes-utilizados)
-- [Etapas Realizadas](#etapas-realizadas)
-- [Pré-requisitos](#pré-requisitos)
-- [Aprendizados](#aprendizados)
-- [Capturas de Tela](#capturas-de-tela)
-- [Autor](#autor)
-- [Licença](#licença)
-
+- Objetivo
+- Arquitetura
+- Componentes Utilizados
+- Etapas Realizadas
+- Pre-requisitos
+- Aprendizados
+- Capturas de Tela
+- Licenca
+  
 ---
 
 ## 🎯 Objetivo
@@ -111,13 +110,6 @@ Abaixo estão registros visuais das principais etapas do projeto e da arquitetur
 
 ### 6. Execução do Instance Refresh para Atualização Gradual  
 ![Instance Refresh](./assets/instance-refresh.png)
-
----
-
-## 👤 Autor
-
-Desenvolvido por [**Aryane Andrade**](https://github.com/aryaneandrade)  
-Mentoria Desafio Labs 2.0 | Formação AWS – Henrylle Maia
 
 ---
 
