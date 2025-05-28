@@ -18,6 +18,7 @@ O objetivo é implementar uma arquitetura baseada em **Amazon ECS (EC2 Launch Ty
 - [Etapas Realizadas](#etapas-realizadas)
 - [Pré-requisitos](#pré-requisitos)
 - [Aprendizados](#aprendizados)
+- [Capturas de Tela](#capturas-de-tela)
 - [Autor](#autor)
 - [Licença](#licença)
 
@@ -33,13 +34,14 @@ Criar uma solução escalável e segura utilizando ECS (EC2 Launch Type), com in
 
 Diagrama representando a arquitetura implementada com os principais serviços da AWS:
 
+![Arquitetura](./assets/arquitetura.png)
 
 
 ---
 
 ## 🛠️ Componentes Utilizados
 
-- **Amazon ECS (EC2 Launch Type)**  
+- **Amazon ECS (EC2 Launch Type)**
 - **Amazon EC2**
 - **Launch Template**
 - **Auto Scaling Group**
@@ -73,6 +75,49 @@ Diagrama representando a arquitetura implementada com os principais serviços da
 - Uso de versões em templates para atualização segura de configurações
 - Aplicação de Instance Refresh para substituição não disruptiva
 - Boas práticas de disponibilidade, automação e controle de mudanças
+
+---
+
+## 📸 Capturas de Tela
+
+Abaixo estão registros visuais das principais etapas do projeto e da arquitetura aplicada:
+
+---
+
+### 1. Cluster ECS EC2 criado com sucesso
+![Cluster ECS](./assets/cluster.png)
+
+---
+
+### 2. Associação de EC2 ao Cluster ECS  
+![EC2 no Cluster](./assets/ec2-cluster.png)
+
+---
+
+### 3. Configuração do Launch Template  
+![Launch Template](./assets/lt-new.png)
+
+---
+
+### 4. Criação e Configuração do Auto Scaling Group  
+![Auto Scaling Group](./assets/asg.png)
+
+---
+
+### 5. Instâncias EC2 ativas no ambiente  
+![EC2 Ativas](./assets/ec2.png)
+
+---
+
+### 6. Execução do Instance Refresh para Atualização Gradual  
+![Instance Refresh](./assets/instance-refresh.png)
+
+---
+
+## 👤 Autor
+
+Desenvolvido por [**Aryane Andrade**](https://github.com/aryaneandrade)  
+Mentoria Desafio Labs 2.0 | Formação AWS – Henrylle Maia
 
 ---
 
